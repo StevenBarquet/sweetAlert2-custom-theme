@@ -1,4 +1,4 @@
-# Similar to deprecated Wordpress-admin Theme for [SweetAlert2]
+# Similar to deprecated wordpress-admin Theme for [SweetAlert2]
 
 [![npm version](https://img.shields.io/npm/v/@sweetalert2/theme-wordpress-admin.svg)](https://www.npmjs.com/package/@sweetalert2/theme-wordpress-admin)
 
@@ -8,7 +8,7 @@ Installation
 ------------
 
 ```sh
-npm install --save sweetalert2 @sweetalert2/theme-wordpress-admin
+npm install --save sweetalert2 sweetalert2-custom-theme
 ```
 
 Usage
@@ -17,8 +17,8 @@ Usage
 With CSS:
 
 ```html
-<!-- Include the Wordpress-admin theme -->
-<link rel="stylesheet" href="@sweetalert2/theme-wordpress-admin/wordpress-admin.css">
+<!-- Include the custom-admin theme -->
+<link rel="stylesheet" href="sweetalert2-custom-theme/custom-admin.css">
 
 <script src="sweetalert2/dist/sweetalert2.min.js"></script>
 ```
@@ -32,13 +32,13 @@ import Swal from 'sweetalert2/dist/sweetalert2.js'
 
 `your-app.scss`:
 ```scss
-@import '@sweetalert2/theme-wordpress-admin/wordpress-admin.scss';
+@import 'sweetalert2-custom-theme/custom-admin.scss';
 ```
 
 Integration
 ------------
 
-To more closely match the WordPress style toast messages, use the following to get started:
+To more closely match the expected style toast messages, use the following to get started:
 
 ```js
 const notify = Swal.mixin({
