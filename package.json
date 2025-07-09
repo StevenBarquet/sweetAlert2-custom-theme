@@ -1,8 +1,8 @@
 {
   "name": "@sweetalert2/custom-theme",
-  "version": "5.0.24",
-  "repository": "sweetalert2/sweetalert2-themes",
-  "homepage": "https://sweetalert2.github.io/",
+  "version": "5.0.25",
+  "repository": "https://github.com/StevenBarquet/sweetAlert2-custom-theme",
+  "homepage": "https://github.com/StevenBarquet/sweetAlert2-custom-theme",
   "description": "Custom theme similar toWordPress admin deprecated theme for SweetAlert2",
   "author": "",
   "files": [
@@ -17,6 +17,6 @@
     "theming",
     "sass"
   ],
-  "bugs": "https://github.com/sweetalert2/sweetalert2-themes/issues",
+  "bugs": "https://github.com/StevenBarquet/sweetAlert2-custom-theme/issues",
   "license": "MIT"
 }
